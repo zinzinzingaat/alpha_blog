@@ -1,3 +1,4 @@
+# rails generate migration create_articles
 class CreateArticles < ActiveRecord::Migration
   def change
     create_table :articles do |t|

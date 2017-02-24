@@ -1,3 +1,4 @@
+#rails generate migration add_description_to_articles
 class AddDescriptionToArticles < ActiveRecord::Migration
   def change
     add_column :articles, :description, :text
