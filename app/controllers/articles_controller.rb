@@ -1,8 +1,13 @@
 class ArticlesController < ApplicationController
   
+  def index
+    @articles = Article.all #grabs all articles
+  end
+  
   def new
     @article = Article.new
   end
+  
 
   def create
     @article = Article.new(article_params)
