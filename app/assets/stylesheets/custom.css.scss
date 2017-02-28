@@ -26,7 +26,7 @@ $navbar-default-bg: #fff;
   height: 100vh;
 }
 
-.headline,a{
+.headline{
   text-transform: capitalize;
   letter-spacing: 1px;
   font-weight: 400;
@@ -51,6 +51,7 @@ $navbar-default-bg: #fff;
 
 .footer{
   border-top: 1px solid #eaeaea;
+  margin-top:30px;
 }
 
 .footer small{
@@ -78,4 +79,6 @@ $navbar-default-bg: #fff;
 .footer a:visited{
    text-decoration: none;
    color: #000;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
