@@ -7,7 +7,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   get 'about', to: 'pages#about'
-  
+  get 'signup', to: 'users#new'
+  resources :users, except: [:new]
   resources  :articles # Gives all GET,PUT,PATCH etc paths
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
